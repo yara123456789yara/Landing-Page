@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <header>
+                <a href="#"><img class="logo" src="./imgs/logo.png" alt="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="text">
+                    <h1>iPhone 13 Pro Max</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci quaerat, voluptatum amet similique nemo reiciendis.</p>
+                    <a href="#">All Products</a>
+                </div>
+                <div class="image">
+                    <img src="./imgs/0.png" class="phone" alt="iphone">
+                </div>
+            </div>
+            <div class="icons">
+                <img onclick="change(this.src); colors('#247ec8');" src="./imgs/1.png" alt="phone">
+                <img onclick="change(this.src); colors('#1e1e1e');" src="./imgs/2.png" alt="phone">
+                <img onclick="change(this.src); colors('#c79b53');" src="./imgs/3.png" alt="phone">
+                <img onclick="change(this.src); colors('#c82525');" src="./imgs/4.png" alt="phone">
+                <img onclick="change(this.src); colors('#000');"    src="./imgs/0.png" alt="phone">
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
